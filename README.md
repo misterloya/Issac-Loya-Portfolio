@@ -17,7 +17,7 @@ Curator.io. If the user clicks on the Home button, they'll be taken directly bac
 
 ## Screenshot
 
-![Front Page Screenshot](img\Issac Loya Portfolio.gif)
+![Front Page Screenshot](img/issacloyaportfolio.gif)
 
 ## Link
 

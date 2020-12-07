@@ -12,12 +12,12 @@ NAVIGATION
 
 ========================= */ 
 
-.nav-wrapper{
+.nav-wrapper {
   display: flex;
   background-color: #333;
   padding: 10px 30px;
-  align-items: center;
-  color: #fff;    
+  text-align: center;
+  color: #fff;
 }
 
 .branding{
@@ -45,26 +45,24 @@ NAVIGATION
   text-align: right;
 }
 
-.menu li{
-    display: inline;
-    padding: 20px;  
-    color: rgb(255, 255, 255);
-     font-size: 21px; 
-     line-height: 21px; 
-     padding: 2px; 
-     border-radius: 4px; 
-     font-family: Georgia, serif; 
-     font-weight: normal; text-decoration: none; 
-     font-style: normal; font-variant: normal; text-transform: none; 
-     /* background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);  */
-     /* box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; */
-      border: 2px solid rgb(28, 110, 164); 
-     display: inline-block;}
-    .myButton:hover {
-    background: #1C6EA4; }
-    .myButton:active {
-    background: #144E75; }
-
+.menu li {
+  display: inline;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 21px;
+  line-height: 21px;
+  padding: 5px 20px 5px 20px;
+  border-radius: 4px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  /* background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); */
+  /* box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; */
+  display: inline-block;
+}
 
 /* =========================
 
@@ -76,7 +74,7 @@ BANNER BIO
 #banner{
   display: flex;
   align-items: center;
-  background: #f7f7f7;
+  background: white;
   height: 50vh;
   min-height: 550px;
 }
@@ -121,13 +119,21 @@ BANNER BIO
 PROJECTS
 
 ========================= */ 
+
+.h1, h1 {
+  font-size: 2.5rem;
+  background-color: #f7f7f7;
+  margin: 0px;
+}
+
 .h5, h5 {
   font-size: 1.25rem;
   opacity: 100%;
 }
 .carousel {
   position: relative;
-  background-color: #333;
+  background-color: #f7f7f7;
+  padding: 50px 0px 50px 0px;
 }
 
 .carousel-inner {
@@ -139,7 +145,7 @@ PROJECTS
   margin-right: auto;
   border-radius: 7%;
   border: 9px solid white;
-  box-shadow: -4px -3px 45px 21px rgba(0,0,0,0.35);
+  box-shadow: 0px -3px 41px 13px rgba(0,0,0,0.25);
 }
 
 .carousel-caption {
@@ -188,17 +194,16 @@ PROJECTS
 
 #projects {
   display: flex;
-  background-color: #333;
-  justify-content: space-between;
+  /* background-color: #333; */
+  /* justify-content: space-between; */
   padding: 20px;
 }
-
 .projectBanner {
   text-align: center;
-  color: white; 
-  text-shadow: 2px 4px black; 
-  padding: 2px;
-  background-color: #333;
+  color: #333;
+  /* text-shadow: 2px 4px black; */
+  /* padding: 2px; */
+  /* background-color: #333; */
 }
 
 .project {

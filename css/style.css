@@ -1,0 +1,354 @@
+
+
+body{
+ padding: 0px; 
+ margin: 0px;
+ font-family: "Helvetica";  
+}
+
+/* =========================
+
+NAVIGATION
+
+========================= */ 
+
+.nav-wrapper{
+  display: flex;
+  background-color: #333;
+  padding: 10px 30px;
+  align-items: center;
+  color: #fff;    
+}
+
+.branding{
+  flex:5;
+  text-shadow: 2px 3px black; 
+}
+
+.nav{
+  text-align: right;
+}
+
+.nav a {
+  color:white;
+  text-decoration: none;
+  text-shadow: 2px 2px black; 
+}
+
+
+.nav a:hover {
+  color:green;
+
+}
+
+.menu{
+  text-align: right;
+}
+
+.menu li{
+    display: inline;
+    padding: 20px;  
+    color: rgb(255, 255, 255);
+     font-size: 21px; 
+     line-height: 21px; 
+     padding: 2px; 
+     border-radius: 4px; 
+     font-family: Georgia, serif; 
+     font-weight: normal; text-decoration: none; 
+     font-style: normal; font-variant: normal; text-transform: none; 
+     /* background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);  */
+     /* box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; */
+      border: 2px solid rgb(28, 110, 164); 
+     display: inline-block;}
+    .myButton:hover {
+    background: #1C6EA4; }
+    .myButton:active {
+    background: #144E75; }
+
+
+/* =========================
+
+BANNER BIO
+
+========================= */ 
+
+
+#banner{
+  display: flex;
+  align-items: center;
+  background: #f7f7f7;
+  height: 50vh;
+  min-height: 550px;
+}
+
+
+.portrait{
+  flex: 5;
+  text-align: center;
+  padding-left: 346px;
+}
+
+.portrait img{
+  max-width: 350px;
+  border-radius: 15px;
+  border: solid 6px #fff;
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.3);
+  filter: grayscale(50%);
+}
+
+.bio {
+  flex: 10;
+  padding-right: 250px;
+  padding-left: 157px;
+  width: 250px;
+}
+
+.bio .eyebrow{
+  font-size: 18px;
+  
+}
+
+.bio h2 {
+  margin-top: 22px;
+  font-size: 54px;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  /* margin: 9px; */
+}
+
+/* =========================
+
+PROJECTS
+
+========================= */ 
+.h5, h5 {
+  font-size: 1.25rem;
+  opacity: 100%;
+}
+.carousel {
+  position: relative;
+  background-color: #333;
+}
+
+.carousel-inner {
+  position: relative;
+  /* width: 100%; */
+  /* overflow: hidden; */
+  width: 51%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 7%;
+  border: 9px solid white;
+  box-shadow: -4px -3px 45px 21px rgba(0,0,0,0.35);
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  background-color: #333;
+  text-align: center;
+  border-radius: 20px;
+  height: 24%;
+  opacity: 92%;
+}
+
+  .carousel-control-prev-icon{
+    background-color: #333;
+  }
+
+  .carousel-control-next-icon{
+    background-color: #333;
+  } 
+
+ 
+.instagram {
+  padding: 15px 25px 100px 25px;
+  
+}
+
+#insta {
+  text-align: center;
+  text-decoration:underline;
+}
+
+.crt-widget.crt-widget-branded {
+  padding-bottom: 25px;
+  filter: drop-shadow(0px 2px 3.2px #333);
+}
+
+#realign {
+  padding-top: 21px;
+}
+
+#projects {
+  display: flex;
+  background-color: #333;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.projectBanner {
+  text-align: center;
+  color: white; 
+  text-shadow: 2px 4px black; 
+  padding: 2px;
+  background-color: #333;
+}
+
+.project {
+  flex: 3;
+  background-color:#111;
+  padding: 100px 30px;
+  text-align: center;
+  border: solid 1px #222; 
+  color: white;
+  text-shadow: 2px 2px black;
+
+}
+
+.overlay {
+  border: 2px solid grey;
+  background-color: rgba(0,0,0,0.8);
+  /* padding-bottom: 20px; */
+  height: 117px;
+}
+
+#project-01{
+  background: url("https://image.freepik.com/free-photo/woman-working-laptop-nature_53876-82407.jpg") ;
+  background-size: cover;
+  background-position: center;
+  filter: sepia(25%);
+  margin: 3px;
+  
+}
+
+#project-02{
+  background: url("https://image.freepik.com/free-photo/beautiful-woman-holding-umbrella_107420-12294.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 3px;
+}
+
+#project-03{
+  background: url("https://image.freepik.com/free-photo/couple-tourists-with-backpacks-mountain_1150-7520.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 3px;
+}
+
+
+#footer {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    /* padding: 21px; */
+}
+
+.footyDiv {
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* email for contact page */
+#yourMessage {
+  display: flex;
+  align-items: top;
+  height: 75px;
+  padding-top: 37px;
+  padding-left: 10px;
+}
+
+.emailDiv {
+  display: flex;
+  justify-content: left;
+  height: 105px;
+  align-items: center;
+  padding: 5px;
+}
+
+textarea {
+  width: 220px;
+}
+
+#emailButton {
+  margin-left: 14px;
+}
+
+#yourEmail {
+
+}
+
+input[type="text"] {
+  margin: 10px 10px 10px 0;
+  display: flex;
+  justify-content: left;
+}
+
+/* #project-04{
+  background: url("https://www.intechnic.com/hs-fs/hubfs/Imported_Blog_Media/Best-restaurant-website-design-inspirations_2_cr-ele-3.jpg?width=1024&height=512&name=Best-restaurant-website-design-inspirations_2_cr-ele-3.jpg");
+  background-size: cover;
+  background-position: center;
+} */
+
+/* =========================
+
+MEDIA QUERIES
+
+========================= */ 
+
+@media only screen and (max-width:1440px){
+
+    section#banner {
+      display: block;
+      height: fit-content;
+    }
+
+    .portrait{
+      padding-left: 0;
+      padding-top: 25px;
+    }
+
+    .bio {
+      text-align: center;
+      width: 100%;
+      padding: 12px 20px 0 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+
+  #banner{
+      -webkit-flex-direction: column;
+      flex-direction: column;
+      height: auto;
+  }
+
+  .portrait img{
+    width: 50%;
+    max-width: 350px;
+  }
+
+  .bio {
+      text-align: center;
+      padding: 12px 15px 0 15px;
+      padding : top;
+  }
+
+  #projects{
+      -webkit-flex-direction: column;
+      flex-direction: column;
+  }
+
+}
+
+
+

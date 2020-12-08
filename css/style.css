@@ -252,7 +252,8 @@ PROJECTS
     height: 60px;
     display: flex;
     justify-content: center;
-    /* padding: 21px; */
+    color: black;
+    
 }
 
 .footyDiv {

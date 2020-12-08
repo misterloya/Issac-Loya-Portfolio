@@ -13,12 +13,22 @@ users will find links to live webpages featuring projects made by the profiled d
 can find a slightly more informative bio, as well as a live look into the developers instagram feed, provided by 
 Curator.io. If the user clicks on the Home button, they'll be taken directly back to the url for the landing page of the website. 
 
+Live URL:
+[Click Here](https://misterloya.github.io/Issac-Loya-Portfolio/)
+
 
 ## Screenshot
 
 ![Front Page Screenshot](img/issacloyaportfolio.gif)
 
-## Link
+## Links
+
+[Click Here](https://misterloya.github.io/Issac-Loya-Portfolio/) to navigate to Issac Loya's Git Hub 
 
 [Click Here](https://misterloya.github.io/Issac-Loya-Portfolio/) to navigate to Issac Loya's Portfolio
+
+[Click Here](https://misterloya.github.io/Issac-Loya-Portfolio/) to navigate to Issac Loya's Covid Travel Planner
+
+[Click Here](https://misterloya.github.io/Issac-Loya-Portfolio/) to navigate to Issac Loya's Code Quiz 
+
 

@@ -3,7 +3,6 @@
 * [Usage](#usage)
 * [Screenshot](#screenshot)
 * [Link](#link)
-* [Collaborators](#collaborators)
 
 ## Usage
 

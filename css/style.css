@@ -173,7 +173,6 @@ PROJECTS
 
 .h1, h1 {
   font-size: 2.5rem;
-  background-color: #f7f7f7;
   margin: 0px;
 }
 
@@ -251,10 +250,8 @@ PROJECTS
 }
 .projectBanner {
   text-align: center;
-  color: #333;
-  /* text-shadow: 2px 4px black; */
-  /* padding: 2px; */
-  /* background-color: #333; */
+  color: white;
+  background-color: black;
 }
 
 .project {
@@ -297,14 +294,17 @@ PROJECTS
 }
 
 .row{
-  justify-content: center;
+  padding-top: 20px;
+  display: flex;
+  justify-content:center;
 }
 
 #footer {
-    height: 60px;
+    height: 150px;
     display: flex;
     justify-content: center;
-    color: black;
+    color: white;
+    font-size: 35px;
     
 }
 

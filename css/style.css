@@ -309,12 +309,6 @@ PROJECTS
     
 }
 
-.footyDiv {
-  color: #333;
-  display: flex;
-  justify-content: center;
-  justify-content: space-between;
-}
 
 /* email for contact page */
 #yourMessage {
@@ -355,6 +349,9 @@ iframe {
   margin-right: auto;
   height: 790px;
   max-block-size: fit-content;
+}
+#carouselExampleCaptions{
+  background-color: black;
 }
 
 

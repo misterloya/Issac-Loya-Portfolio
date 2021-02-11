@@ -4,6 +4,7 @@ body{
  padding: 0px; 
  margin: 0px;
  font-family: "Helvetica";  
+ background-color: black;
 }
 
 /* =========================
@@ -14,7 +15,7 @@ NAVIGATION
 
 .nav-wrapper {
   display: flex;
-  background-color: #333;
+  background-color: black;
   padding: 10px 30px;
   text-align: center;
   color: #fff;
@@ -74,9 +75,10 @@ BANNER BIO
 #banner{
   display: flex;
   align-items: center;
-  background: white;
+  background: black;
   height: 50vh;
   min-height: 550px;
+  color: white;
 }
 
 
@@ -103,6 +105,8 @@ BANNER BIO
 
 .bio .eyebrow{
   font-size: 18px;
+  background-color: black;
+  color: white;
   
 }
 
@@ -225,7 +229,7 @@ PROJECTS
 }
 
 #project-01{
-  background: url("https://image.freepik.com/free-photo/woman-working-laptop-nature_53876-82407.jpg") ;
+  background: url("img\Eat-Da-Burger.png") ;
   background-size: cover;
   background-position: center;
   filter: sepia(25%);
@@ -303,6 +307,11 @@ iframe {
   margin-right: auto;
   height: 790px;
   max-block-size: fit-content;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
 }
 
 /* #project-04{

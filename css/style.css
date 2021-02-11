@@ -305,6 +305,7 @@ PROJECTS
     justify-content: center;
     color: white;
     font-size: 35px;
+    padding-top: 20px;
     
 }
 
@@ -312,8 +313,7 @@ PROJECTS
   color: #333;
   display: flex;
   justify-content: center;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 /* email for contact page */

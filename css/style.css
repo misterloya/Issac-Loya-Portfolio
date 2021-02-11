@@ -62,7 +62,7 @@ NAVIGATION
 
 .nav-wrapper {
   display: flex;
-  background-color: black;
+  background-color: #333;
   padding: 10px 30px;
   text-align: center;
   color: #fff;
@@ -85,7 +85,7 @@ NAVIGATION
 
 
 .nav a:hover {
-  color:green;
+  color: darkblue;
 
 }
 
@@ -304,6 +304,7 @@ PROJECTS
     display: flex;
     justify-content: center;
     color: white;
+    background-color:#333;
     font-size: 35px;
     padding-top: 20px;
     

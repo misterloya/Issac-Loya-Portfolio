@@ -3,6 +3,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -71,6 +72,11 @@ NAVIGATION
 .branding{
   flex:5;
   text-shadow: 2px 3px black; 
+}
+
+p{
+  line-height:38px;
+  font-family: 'Hammersmith One', sans-serif;
 }
 
 .nav{
